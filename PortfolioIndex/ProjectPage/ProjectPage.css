@@ -1,0 +1,816 @@
+.projectContainer {
+  width: 375px;
+  margin: auto;
+  background: #f2f2f2;
+}
+
+.projectHeaderContainer {
+  display: flex;
+  gap: 226px;
+  height: 32px;
+  width: 311px;
+  margin: 32px auto;
+  align-items: center;
+}
+
+.projectHeaderArrowIndicators {
+  display: flex;
+  flex-direction: row;
+  height: 32px;
+  width: 60px;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1px;
+}
+
+.projectTriangleUpHeader {
+  height: 26px;
+  width: 31px;
+
+  border-radius: 0px;
+}
+
+.projectTriangleUpHeader:hover {
+  height: 27px;
+  width: 32px;
+  cursor: pointer;
+}
+.projectTriangleDownHeader {
+  height: 26px;
+  width: 31px;
+  transform: rotate(180deg);
+}
+.projectTriangleDownHeader:hover {
+  height: 27px;
+  width: 32px;
+  cursor: pointer;
+}
+
+.projectSearchBarHeaderProject {
+  height: 13px;
+  width: 24px;
+}
+
+.projectSearchBarHeaderProject:hover {
+  height: 14px;
+  width: 25px;
+  cursor: pointer;
+}
+
+.projePagectPhoto {
+  height: 240px;
+  width: 311px;
+  margin: 40px auto;
+  display: block;
+}
+
+.indexLineBetweenProjectProjectPage {
+  display: flex;
+  height: 1px;
+  width: 311px;
+  margin: 0px auto;
+  background: rgba(51, 50, 61, 1);
+  mix-blend-mode: normal;
+  opacity: 0.15;
+}
+
+.indexProjectContentBoxProjectPage {
+  display: flex;
+  flex-direction: column;
+  height: 532px;
+  width: 311px;
+  margin: 32px auto;
+}
+
+.indexProjectTitleProjectPage {
+  height: 42px;
+  width: 311px;
+
+  font-family: "Ibarra Real Nova";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: -0.3571428656578064px;
+  text-align: left;
+  color: rgba(51, 50, 61, 1);
+}
+
+.indexProjectDescriptionProjectPage {
+  height: 310px;
+  width: auto;
+  margin-top: 110px;
+  font-family: "Public Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(51, 50, 61, 1);
+}
+
+.indexViewProjectBoxProjectPage {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 48px;
+  width: 202px;
+  margin-top: 24px;
+
+  border: 1px solid rgba(51, 50, 61, 1);
+  font-family: "Public Sans";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-align: left;
+  color: rgba(51, 50, 61, 1);
+}
+
+.indexViewProjectBoxProjectPage:hover {
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 700;
+  border: 2px solid rgba(51, 50, 61, 1);
+}
+.indexBetweenProjectslineProjectPage {
+  height: 1px;
+  width: 311px;
+  margin: 51px auto;
+  background: rgba(51, 50, 61, 1);
+  mix-blend-mode: normal;
+  opacity: 0.15;
+}
+
+.projectBackgroundBox {
+  height: 400px;
+  width: 311px;
+  margin: 48px auto;
+  border-radius: 0px;
+}
+
+.projectBackground {
+  height: 42px;
+  width: 311px;
+
+  font-family: "Ibarra Real Nova";
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: -0.2857142984867096px;
+  text-align: left;
+  color: rgba(51, 50, 61, 1);
+}
+
+.projectBackgroundText {
+  width: 311px;
+  font-family: "Public Sans";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0px;
+  margin-top: 28px;
+  text-align: left;
+  color: rgba(51, 50, 61, 1);
+}
+
+.staticPreview {
+  height: 42px;
+  width: 311px;
+  font-family: "Ibarra Real Nova";
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 42px;
+  margin-left: 32px;
+  letter-spacing: -0.2857142984867096px;
+  text-align: left;
+  color: rgba(51, 50, 61, 1);
+}
+
+.staticPhoto {
+  height: 400px;
+  width: 313px;
+  margin: 40px 30px;
+}
+
+.changePagesBox {
+  display: flex;
+  flex-direction: row;
+
+  height: 148px;
+  width: 326px;
+  margin-left: 24px;
+  top: 1692px;
+  border-radius: 0px;
+}
+.changeBoxVerticalLineTop {
+  height: 1px;
+  width: 326px;
+  margin-left: 24px;
+  margin-top: 0px;
+  background: rgba(51, 50, 61, 1);
+  mix-blend-mode: normal;
+  opacity: 0.15;
+}
+
+.boxOne {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  height: 98px;
+  width: 122px;
+  margin-left: 24px;
+  margin-top: 24px;
+}
+
+.changeBoxArrowLeft:hover {
+  cursor: pointer;
+}
+.changeBoxArrowLeft {
+  height: 16px;
+  width: 8px;
+  margin: 0px 160px 16px 0px;
+}
+.changePageHeader {
+  height: 36px;
+  width: 170px;
+  margin-left: 0px;
+  margin-top: 0px;
+  font-family: "Ibarra Real Nova";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.2857142984867096px;
+  text-align: left;
+  color: rgba(51, 50, 61, 1);
+}
+.changePageHeader:hover {
+  cursor: pointer;
+}
+
+.changePagePreviousNextText {
+  height: 30px;
+  width: 121px;
+  margin: 0px 50px 0px 0px;
+  font-family: "Public Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(51, 50, 61, 1);
+}
+.changePagePreviousNextText:hover {
+  cursor: pointer;
+}
+
+.changeBoxHorizontalLine {
+  height: 150px;
+  width: 1px;
+  margin-left: 20px;
+  margin-top: 0px;
+  background: rgba(51, 50, 61, 1);
+  mix-blend-mode: normal;
+  opacity: 0.15;
+}
+
+.boxTwo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  height: 98px;
+  width: 122px;
+  margin-left: 0px;
+  margin-top: 24px;
+}
+
+.changeBoxArrowRight {
+  height: 16px;
+  width: 8px;
+  margin: 0px 0px 16px 180px;
+}
+.changeBoxArrowRight:hover {
+  cursor: pointer;
+}
+
+.changePageHeaderRight {
+  height: 36px;
+  width: 170px;
+  margin-left: 20px;
+  margin-top: 0px;
+  font-family: "Ibarra Real Nova";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.2857142984867096px;
+  text-align: right;
+  color: rgba(51, 50, 61, 1);
+}
+.changePageHeaderRight:hover {
+  cursor: pointer;
+}
+
+.changePagePreviousNextTextRight {
+  height: 30px;
+  width: 121px;
+  margin: 0px 50px 0px 120px;
+  font-family: "Public Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: right;
+  color: rgba(51, 50, 61, 1);
+}
+.changePagePreviousNextTextRight:hover {
+  cursor: pointer;
+}
+
+.changeBoxVerticalLineBottom {
+  height: 1px;
+  width: 326px;
+  margin-left: 24px;
+  margin-top: 2px;
+  background: rgba(51, 50, 61, 1);
+  mix-blend-mode: normal;
+  opacity: 0.15;
+}
+
+/*  */
+
+.projectBottomArrowsBox {
+  display: flex;
+  margin-top: 20px;
+  height: 32px;
+  width: 61px;
+}
+.projectUpArrow {
+  height: 26px;
+  width: 31px;
+}
+.projectUpArrow:hover {
+  cursor: pointer;
+  height: 27px;
+  width: 32px;
+}
+
+.projectDownArrow {
+  height: 26px;
+  width: 31px;
+  transform: rotate(180deg);
+}
+.projectDownArrow:hover {
+  cursor: pointer;
+  height: 27px;
+  width: 32px;
+}
+
+.projectContactMeContentBox {
+  height: 214px;
+  width: 311px;
+  margin: 64px auto;
+  border-radius: 0px;
+}
+
+.projectContactMeContentBox:hover {
+  cursor: pointer;
+
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.projectContactMeBox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 48px;
+  width: 162px;
+  margin: 40px auto;
+  border: 1px solid rgba(51, 50, 61, 1);
+  font-family: "Public Sans";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-align: left;
+  color: rgba(51, 50, 61, 1);
+}
+
+.projectInterestedTogetherText {
+  height: 126px;
+  width: 311px;
+  font-family: "Ibarra Real Nova";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: -0.3571428656578064px;
+  text-align: center;
+  color: rgba(51, 50, 61, 1);
+}
+
+.projectBottomBox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  height: 354px;
+  width: 375px;
+
+  background: rgba(51, 50, 61, 1);
+}
+
+.projectBottomTextBox {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  height: 106px;
+  width: 98px;
+}
+
+.projectBottomText {
+  height: 14px;
+  width: 100px;
+
+  font-family: "Public Sans";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+.projectBottomText:hover {
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.projectSocialNetworkBox {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  height: 24px;
+  width: 104px;
+}
+
+.projectSocialNetwork {
+  display: flex;
+  flex-direction: row;
+}
+
+.projectSocialNetwork:hover {
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+  .projectContainer {
+    width: 768px;
+  }
+  .projectHeaderContainer {
+    height: 32px;
+    width: 689px;
+    left: 39px;
+    top: 64px;
+    border-radius: 0px;
+  }
+  .indexDropDown {
+    display: none;
+  }
+  .indexDropdownContenttabletdesktop {
+    height: 14px;
+    width: 700px;
+  }
+  .bottomTexttabletdesktop {
+    height: 14px;
+    width: 100px;
+    font-family: "Public Sans";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: rgba(51, 50, 61, 1);
+    text-decoration: none;
+  }
+  .bottomTexttabletdesktop:hover {
+    cursor: pointer;
+    color: rgba(95, 180, 162, 1);
+  }
+
+  .projePagectPhoto {
+    height: 410px;
+    width: 520px;
+  }
+  .indexLineBetweenProjectProjectPage {
+    height: 1px;
+    width: 689px;
+  }
+  .indexProjectContentBoxProjectPage {
+    display: flex;
+
+    height: 220px;
+    width: 689px;
+  }
+  .indexProjectTitleProjectPage {
+    height: 42px;
+    width: 350px;
+    font-family: "Ibarra Real Nova";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -0.3571428656578064px;
+    text-align: left;
+  }
+  .indexProjectDescriptionProjectPage {
+    height: 175px;
+    width: 339px;
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 350px;
+    margin-top: -70px;
+  }
+  .indexViewProjectBoxProjectPage {
+    text-decoration: none;
+    margin-top: -65px;
+    margin-left: 0px;
+  }
+  .indexBetweenProjectslineProjectPage {
+    height: 1px;
+    width: 689px;
+  }
+  .projectBackgroundBox {
+    display: flex;
+    flex-direction: column;
+    height: 220px;
+    width: 688px;
+  }
+  .projectBackground {
+    height: 42px;
+    width: 350px;
+
+    margin-top: 0px;
+    font-family: "Ibarra Real Nova";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: -0.2857142984867096px;
+    text-align: left;
+  }
+  .projectBackgroundText {
+    height: 150px;
+    width: 688px;
+    font-family: "Public Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .staticPhoto {
+    height: 534px;
+    width: 689px;
+  }
+  .changeBoxVerticalLineTop {
+    height: 1px;
+    width: 691px;
+  }
+  .changePagesBox {
+    margin: auto;
+    display: flex;
+    gap: 181px;
+    height: 132px;
+    width: 691px;
+  }
+  .changeBoxHorizontalLine {
+    height: 135px;
+    width: 1px;
+  }
+  .changeBoxVerticalLineBottom {
+    height: 1px;
+    width: 691px;
+  }
+  .projectContactMeContentBox {
+    display: flex;
+    flex-direction: row;
+    gap: 177px;
+    height: 84px;
+    width: 689px;
+  }
+  .projectInterestedTogetherText {
+    height: 84px;
+    width: 350px;
+    left: 0px;
+    top: 0px;
+    font-family: "Ibarra Real Nova";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -0.3571428656578064px;
+    text-align: left;
+  }
+  .projectContactMeBox {
+    text-decoration: none;
+  }
+  .projectBottomBox {
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    width: 768px;
+  }
+  .projectBottomTextBox {
+    height: 14px;
+    width: 359px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+  }
+  .projectBottomText {
+    text-decoration: none;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .projectContainer {
+    width: 1440px;
+  }
+  .projectHeaderContainer {
+    height: 32px;
+    width: 1111px;
+    gap: 650px;
+  }
+  .indexDropDown {
+    display: none;
+  }
+  .indexDropdownContenttabletdesktop {
+    height: 14px;
+    width: 400px;
+  }
+  .bottomTexttabletdesktop {
+    height: 14px;
+    width: 100px;
+    font-family: "Public Sans";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: rgba(51, 50, 61, 1);
+    text-decoration: none;
+  }
+  .bottomTexttabletdesktop:hover {
+    cursor: pointer;
+    color: rgba(95, 180, 162, 1);
+  }
+
+  .projePagectPhoto {
+    height: 600px;
+    width: 900px;
+  }
+  .indexLineBetweenProjectProjectPage {
+    height: 1px;
+    width: 689px;
+  }
+
+  .forDesktopProject {
+    display: flex;
+    flex-direction: column;
+
+    width: 1110px;
+    margin: auto;
+  }
+  .indexProjectContentBoxProjectPage {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 550px;
+    margin-left: 0px;
+  }
+  .indexProjectTitleProjectPage {
+    height: 42px;
+    width: 350px;
+    font-family: "Ibarra Real Nova";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -0.3571428656578064px;
+    text-align: left;
+    margin-top: 0px;
+  }
+  .indexProjectDescriptionProjectPage {
+    height: 175px;
+    width: 470px;
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  .indexViewProjectBoxProjectPage {
+    text-decoration: none;
+    margin-top: -65px;
+    margin-left: 0px;
+  }
+  .indexBetweenProjectslineProjectPage {
+    height: 1px;
+    width: 550px;
+    margin-left: 0px;
+  }
+  .projectBackgroundBox {
+    display: flex;
+    flex-direction: column;
+
+    width: 550px;
+    margin-left: 0px;
+  }
+  .projectBackground {
+    height: 42px;
+    width: 350px;
+    margin-top: -50px;
+    font-family: "Ibarra Real Nova";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: -0.2857142984867096px;
+    text-align: left;
+  }
+  .projectBackgroundText {
+    height: 150px;
+    width: 488px;
+    font-family: "Public Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .staticPreview {
+    margin: auto;
+    display: none;
+  }
+  .staticPhoto {
+    height: 460px;
+    width: 589px;
+    position: absolute;
+    margin: 200px 520px;
+  }
+  .changeBoxVerticalLineTop {
+    display: none;
+  }
+  .changePagesBox {
+    margin: auto;
+    display: flex;
+    gap: 800px;
+    height: 132px;
+    width: 1110px;
+  }
+  .changeBoxHorizontalLine {
+    height: 1px;
+    width: 610px;
+    background: rgba(51, 50, 61, 1);
+    display: none;
+  }
+  .changeBoxVerticalLineBottom {
+    height: 1px;
+    width: 691px;
+
+    margin: 0px auto;
+  }
+  .projectContactMeContentBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 598px;
+    height: 84px;
+    width: 1110px;
+  }
+  .projectInterestedTogetherText {
+    height: 84px;
+    width: 400px;
+    font-family: "Ibarra Real Nova";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -0.3571428656578064px;
+    text-align: left;
+  }
+  .projectContactMeBox {
+    text-decoration: none;
+  }
+  .projectBottomBox {
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    width: 1440px;
+  }
+  .projectBottomTextBox {
+    height: 14px;
+    width: 359px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+  }
+  .projectBottomText {
+    text-decoration: none;
+  }
+}

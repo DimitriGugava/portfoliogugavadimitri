@@ -1,0 +1,730 @@
+.homePageContainer {
+  width: 375px;
+
+  margin: auto;
+  background: #f2f2f2;
+}
+
+.homePageHeaderContainer {
+  display: flex;
+  gap: 226px;
+  height: 32px;
+  width: 311px;
+  margin: 32px auto;
+  align-items: center;
+}
+
+.homePageHeaderArrowIndicators {
+  display: flex;
+  flex-direction: row;
+  height: 32px;
+  width: 60px;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1px;
+}
+
+.triangleUpHeader {
+  height: 26px;
+  width: 31px;
+
+  border-radius: 0px;
+}
+
+.triangleUpHeader:hover {
+  height: 27px;
+  width: 32px;
+  cursor: pointer;
+}
+.triangleDownHeader {
+  height: 26px;
+  width: 31px;
+  transform: rotate(180deg);
+}
+.triangleDownHeader:hover {
+  height: 27px;
+  width: 32px;
+  cursor: pointer;
+}
+
+.searchBarHeader {
+  height: 13px;
+  width: 24px;
+  position: relative;
+  display: inline-block;
+}
+
+.searchBarHeader:hover {
+  height: 14px;
+  width: 25px;
+  cursor: pointer;
+}
+
+.dropdownContent {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  margin-left: -50px;
+
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdownContent a {
+  color: black;
+  padding: 12px 28px;
+  text-decoration: none;
+  display: block;
+}
+.dropdownContent a:hover {
+  background-color: #ddd;
+}
+.dropDown:hover .dropdownContent {
+  display: block;
+}
+
+.dropDown:hover .searchBarHeader {
+  width: 20px;
+}
+
+.homePageOpenningImage {
+  display: block;
+  margin: 40px auto;
+  /* width: 343px;
+  height: 250px; */
+}
+
+.homePageHeaderIntroText {
+  height: 168px;
+  width: 311px;
+  margin: 24px auto;
+  font-family: "Ibarra Real Nova";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: -0.3571428656578064px;
+  text-align: left;
+  color: rgba(51, 50, 61, 1);
+}
+
+.homePageAboutMeBox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 48px;
+  width: 200px;
+  margin: 32px 32px;
+  background: rgba(32, 58, 76, 1);
+}
+.homePageAboutMeBox:hover {
+  cursor: pointer;
+  background: rgb(29, 52, 69);
+}
+.downArrowsShape {
+  height: 48px;
+  width: 48px;
+}
+.downArrowsShape:hover {
+  cursor: pointer;
+}
+
+.aboutMeText {
+  height: 14px;
+  width: 152px;
+  font-family: "Public Sans";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+
+.myPhoto {
+  display: block;
+  margin: 76px auto;
+  height: 450px;
+  width: 340px;
+  object-fit: cover;
+}
+
+.homePageLongTextAboutMeBox {
+  display: flex;
+  flex-direction: column;
+  height: 532px;
+  width: 311px;
+  margin: 32px auto;
+}
+
+.AboutMeLongTextHeader {
+  height: 42px;
+  width: 311px;
+  left: 0px;
+  top: 0px;
+  font-family: "Ibarra Real Nova";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: -0.3571428656578064px;
+  text-align: left;
+  color: rgba(51, 50, 61, 1);
+}
+
+.aboutMeLongText {
+  height: 390px;
+  width: 311px;
+  margin-top: 28px;
+  font-family: "Public Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(51, 50, 61, 1);
+}
+
+.goToPorfolioBox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 48px;
+  width: 200px;
+  margin: 0px auto;
+  border: 1px solid rgba(51, 50, 61, 1);
+  font-family: "Public Sans";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-align: left;
+  color: rgba(51, 50, 61, 1);
+  text-decoration: none;
+}
+
+.goToPorfolioBox:hover {
+  cursor: pointer;
+  font-size: 13px;
+
+  font-weight: 700;
+  border: 2px solid rgba(51, 50, 61, 1);
+}
+.homePagesecondLine {
+  height: 1px;
+  width: 311px;
+  margin: 70px auto;
+  background: rgba(51, 50, 61, 1);
+  mix-blend-mode: normal;
+  opacity: 0.15;
+}
+
+.homePageContactMeBox {
+  height: 214px;
+  width: 311px;
+  margin: 115px auto;
+  text-decoration: none;
+}
+
+.homePageInterestedText {
+  height: 126px;
+  width: 311px;
+  font-family: "Ibarra Real Nova";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: -0.3571428656578064px;
+  text-align: center;
+  color: rgba(51, 50, 61, 1);
+}
+
+.contactMeBox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 48px;
+  width: 162px;
+  border: 1px solid rgba(51, 50, 61, 1);
+  margin: 40px auto;
+  font-family: "Public Sans";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-align: left;
+  color: rgba(51, 50, 61, 1);
+  text-decoration: none;
+}
+
+.contactMeBox:hover {
+  cursor: pointer;
+  border: 2px solid rgba(51, 50, 61, 1);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.homePageBottomBox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  height: 354px;
+  width: 375px;
+
+  border-radius: 0px;
+  background: rgba(51, 50, 61, 1);
+  gap: 0px;
+}
+
+.homePageBottomArrowsBox {
+  display: flex;
+  margin-top: 20px;
+  height: 32px;
+  width: 61px;
+}
+.upArrow {
+  height: 26px;
+  width: 31px;
+}
+.upArrow:hover {
+  cursor: pointer;
+  height: 27px;
+  width: 32px;
+}
+
+.downArrow {
+  height: 26px;
+  width: 31px;
+  transform: rotate(180deg);
+}
+.downArrow:hover {
+  cursor: pointer;
+  height: 27px;
+  width: 32px;
+}
+
+.bottomTextBox {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  height: 106px;
+  width: 98px;
+}
+
+.bottomText {
+  height: 14px;
+  width: 100px;
+
+  font-family: "Public Sans";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+}
+.bottomText:hover {
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.socialNetworkBox {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  height: 24px;
+  width: 104px;
+}
+
+.socialNetwork {
+  display: flex;
+  flex-direction: row;
+}
+
+.socialNetwork:hover {
+  cursor: pointer;
+}
+@media only screen and (max-width: 768px) {
+  .tabletdesktopheader {
+    display: none;
+  }
+  .homepagephoto {
+    display: none;
+  }
+  .meme {
+    display: none;
+  }
+  .myPhototabletdesktop {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .homePageContainer {
+    width: 768px;
+  }
+  .homePageHeaderContainer {
+    height: 32px;
+    width: 680px;
+  }
+
+  .dropDown {
+    display: none;
+  }
+  .tabletdesktopheader {
+    height: 14px;
+    width: 380px;
+    display: flex;
+    flex-direction: row;
+    gap: 42px;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .tabletheaderhome {
+    display: flex;
+    text-decoration: none;
+    height: 14px;
+    width: 120px;
+    font-family: "Public Sans";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: rgba(51, 50, 61, 1);
+  }
+  .tabletheaderhome:hover {
+    cursor: pointer;
+    color: rgba(95, 180, 162, 1);
+  }
+
+  .homePageOpenningImage {
+    display: none;
+  }
+
+  .homepagephoto {
+    position: relative;
+    height: 600px;
+    width: 688px;
+    margin-left: 39px;
+  }
+  .meme {
+    position: absolute;
+    height: 382px;
+    width: 496px;
+    margin-top: 93px;
+    margin-left: -602px;
+  }
+
+  .heyDimitriBox {
+    position: absolute;
+    z-index: 1;
+    margin-top: -282px;
+    margin-left: 38px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    height: 278px;
+    width: 514px;
+
+    border-radius: 0px;
+    background: rgba(250, 250, 250, 1);
+  }
+  .homePageHeaderIntroText {
+    height: 126px;
+    width: 458px;
+    font-family: "Ibarra Real Nova";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -0.3571428656578064px;
+    text-align: left;
+    color: rgba(51, 50, 61, 1);
+  }
+  .myphotoandaboutme {
+    margin: 96px auto;
+    display: flex;
+    height: 600px;
+    width: 689px;
+  }
+  .myphotoandaboutmetextbox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: -52px;
+    margin-left: 15px;
+    height: 600px;
+    width: 339px;
+  }
+
+  .aboutMeLongText {
+    height: 360px;
+    width: 310px;
+    font-family: "Public Sans";
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0px;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .goToPorfolioBox {
+    text-decoration: none;
+    margin-left: 0px;
+    margin-top: 45px;
+    margin-top: 24px;
+  }
+  .myPhoto {
+    display: none;
+  }
+  .myPhototabletdesktop {
+    height: 600px;
+    width: 350px;
+    margin-top: 0px;
+  }
+
+  .homePagesecondLine {
+    height: 1px;
+    width: 315px;
+    margin-left: 0px;
+    margin-top: 28px;
+  }
+  .homePageContactMeBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 84px;
+    width: 689px;
+    gap: 175px;
+  }
+
+  .homePageInterestedText {
+    height: 84px;
+    width: 350px;
+    margin-left: 0px;
+    margin-top: 0px;
+    font-family: "Ibarra Real Nova";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -0.3571428656578064px;
+    text-align: left;
+  }
+
+  .contactMeBox {
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    margin-left: 0px;
+    text-decoration: none;
+  }
+  .homePageBottomBox {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-around;
+    height: 80px;
+    width: 768px;
+  }
+  .bottomTextBox {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    height: 14px;
+    width: 400px;
+  }
+  .bottomText {
+    text-decoration: none;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .homePageContainer {
+    width: 1440px;
+  }
+  .homePageHeaderContainer {
+    height: 32px;
+    width: 1111px;
+    gap: 665px;
+  }
+
+  .dropDown {
+    display: none;
+  }
+  .tabletdesktopheader {
+    height: 14px;
+    width: 380px;
+    display: flex;
+    flex-direction: row;
+    gap: 42px;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .tabletheaderhome {
+    display: flex;
+    text-decoration: none;
+    height: 14px;
+    width: 120px;
+    font-family: "Public Sans";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: rgba(51, 50, 61, 1);
+  }
+  .tabletheaderhome:hover {
+    cursor: pointer;
+    color: rgba(95, 180, 162, 1);
+  }
+
+  .homePageOpenningImage {
+    display: none;
+  }
+
+  .homepagephoto {
+    position: relative;
+    height: 798px;
+    width: 1218px;
+
+    margin-left: 39px;
+  }
+  .meme {
+    position: absolute;
+    height: 380px;
+    width: 886px;
+    margin-top: 120px;
+    margin-left: -1070px;
+  }
+
+  .heyDimitriBox {
+    position: absolute;
+    z-index: 1;
+    margin-top: -362px;
+    margin-left: 38px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 357px;
+    width: 445px;
+    border-radius: 0px;
+    background: rgba(250, 250, 250, 1);
+    opacity: 95%;
+  }
+  .homePageHeaderIntroText {
+    height: 200px;
+    width: 390px;
+    font-family: "Ibarra Real Nova";
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: -0.4464285671710968px;
+    text-align: left;
+    margin-left: 0px;
+  }
+  .homePageAboutMeBox {
+    height: 48px;
+    width: 200px;
+    margin-top: 60px;
+    margin-left: 0px;
+  }
+  .myphotoandaboutme {
+    margin: 96px auto;
+    display: flex;
+    height: 600px;
+    width: 1015px;
+    margin-left: 0px;
+  }
+  .myphotoandaboutmetextbox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+    margin-left: 15px;
+    height: 600px;
+    width: 339px;
+  }
+
+  .aboutMeLongText {
+    height: 360px;
+    width: 500px;
+    font-family: "Public Sans";
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0px;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .goToPorfolioBox {
+    text-decoration: none;
+    margin-left: 0px;
+    margin-top: 45px;
+    margin-top: 24px;
+  }
+  .myPhoto {
+    display: none;
+  }
+  .myPhototabletdesktop {
+    height: 680px;
+    width: 540px;
+
+    margin-top: -50px;
+  }
+
+  .homePagesecondLine {
+    height: 1px;
+    width: 315px;
+    margin-left: 0px;
+    margin-top: 28px;
+  }
+  .homePageContactMeBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 84px;
+    width: 1110px;
+    gap: 590px;
+  }
+
+  .homePageInterestedText {
+    display: flex;
+    height: 84px;
+    width: 350px;
+    margin-left: 0px;
+    margin-top: 0px;
+    font-family: "Ibarra Real Nova";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -0.3571428656578064px;
+    text-align: left;
+  }
+
+  .contactMeBox {
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    margin-left: 0px;
+    text-decoration: none;
+  }
+  .homePageBottomBox {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-around;
+    height: 80px;
+    width: 1440px;
+  }
+  .bottomTextBox {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    height: 14px;
+    width: 400px;
+  }
+  .bottomText {
+    text-decoration: none;
+  }
+}

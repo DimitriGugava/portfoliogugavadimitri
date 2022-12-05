@@ -1,0 +1,156 @@
+.ContactPage {
+  width: 375px;
+
+  margin: auto;
+  background: #f2f2f2;
+}
+
+.contactTextBox {
+  margin: auto;
+  width: 311px;
+}
+.getInTouchText {
+  height: 42px;
+  width: 311px;
+  margin-top: 24px;
+
+  font-family: "Ibarra Real Nova";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: -0.3571428656578064px;
+  text-align: left;
+  color: rgba(51, 50, 61, 1);
+}
+
+.contactLongText {
+  height: 360px;
+  width: 311px;
+  margin-top: 24px;
+  font-family: "Public Sans";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(51, 50, 61, 1);
+  padding-bottom: 24px;
+}
+
+.mailText {
+  width: 311px;
+  margin-top: 24px;
+  font-family: "Public Sans";
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(51, 50, 61, 1);
+  padding-bottom: 24px;
+}
+
+.contactSocialNetworks {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  width: 300px;
+  margin: auto;
+  padding-bottom: 10px;
+}
+
+.indexDropdownContenttablet {
+  display: none;
+}
+@media only screen and (min-width: 768px) {
+  .ContactPage {
+    width: 768px;
+  }
+  .indexDropdownContenttablet {
+    height: 14px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+  }
+  .bottomTexttablet {
+    text-decoration: none;
+    height: 14px;
+    width: 120px;
+    font-family: "Public Sans";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: rgba(51, 50, 61, 1);
+  }
+  .bottomTexttablet:hover {
+    cursor: pointer;
+    color: rgba(95, 180, 162, 1);
+  }
+  .homePageFirstLine {
+    height: 1px;
+    width: 689px;
+    margin: 24px auto;
+  }
+  .contactSocialNetworks {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    width: 285px;
+  }
+  .contactTextBox {
+    width: 689px;
+    margin: 24px auto;
+  }
+  .contactLongText {
+    width: 689px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .ContactPage {
+    width: 1440px;
+  }
+  .indexDropdownContenttablet {
+    height: 14px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+  }
+  .bottomTexttablet {
+    text-decoration: none;
+    height: 14px;
+    width: 120px;
+    font-family: "Public Sans";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: rgba(51, 50, 61, 1);
+  }
+  .bottomTexttablet:hover {
+    cursor: pointer;
+    color: rgba(95, 180, 162, 1);
+  }
+  .homePageFirstLine {
+    height: 1px;
+    width: 689px;
+    margin: 24px auto;
+  }
+  .contactSocialNetworks {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    width: 285px;
+  }
+  .contactTextBox {
+    width: 689px;
+    margin: 24px auto;
+  }
+  .contactLongText {
+    width: 689px;
+  }
+}

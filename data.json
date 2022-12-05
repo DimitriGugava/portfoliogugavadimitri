@@ -1,0 +1,102 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Single Web-Page",
+      "description": "Users should be able to: View the optimal layout for the site depending on their device's screen size, See hover states for all interactive elements on the page, Navigate the slider using either their mouse/trackpad or keyboard.",
+      "githublink": "https://github.com/DimitriGugava/Single-page-design.git",
+      "livelink": "https://single-page-design-rosy.vercel.app/",
+      "projectbackground": "The project took me about 5 hours to complete. It is responsive - desktop, tablet and mobile versions. Poject was built with: ReactJS ",
+      "PreviousProject": "No Previous Project...",
+      "NextProject": "Tip Calculator",
+      "projectimage": {
+        "imagepreview": {
+          "photo": "/data/singlepage.png",
+          "phototwo": "/data/singlepagetwo.png",
+          "staticphoto": "/data/singlepagestatic.png"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "name": " Tip Calculator",
+      "description": "This was a really interesting Challenge especially because of the React part. Just like other challenges, i chose mobile first approach. For the first time I faced some functional challenges bigger than that was previous time. The challenge for me was how to read values from the fields after user inputs the proper value (and not NaN). But I figured it out by using the change event listener on all input fields. ",
+      "githublink": "https://github.com/DimitriGugava/tip-calculator-app",
+      "livelink": "https://dimitrigugava.github.io/tip-calculator-app/",
+      "projectbackground": "Users should be able to: View the optimal layout for the app depending on their device's screen size; See hover states for all interactive elements on the page; Calculate the correct tip and total cost of the bill per person. Project was buit with - React JS",
+      "PreviousProject": "Single Page Design",
+      "NextProject": "ToDo-App",
+      "LiveLink": "https://dimitrigugava.github.io/tip-calculator-app/",
+      "projectimage": {
+        "imagepreview": {
+          "photo": "/data/tipcalculator.jpg",
+          "phototwo": "/data/tipcalculatorstatictwo.jpg"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "name": "ToDo-App",
+      "description": "ToDoApp Description: ToDo App is a platform where users are able to add their to do list andschedule the day and their performance. The user can add and delete their todo list. Also, control the background theme. See how many To Do item is in the list and modify them.",
+      "githublink": "https://github.com/DimitriGugava/ToDo-App",
+      "livelink": "https://to-do-app-2atp.vercel.app/",
+      "projectbackground": "Time Taken: 4 hour Technology Used: ReactJS.Technology Used: ReactJSView the optimal layout for the app depending on their device's screen size;See hover states for all interactive elements on the page;Add new todos to the list;Mark todos as complete;Delete todos from the list;Filter by all/active/complete todos;Clear all completed todos;Toggle light and dark mode",
+      "PreviousProject": "Tip Calculator",
+      "NextProject": "Interactive Rating Comp...",
+      "projectimage": {
+        "imagepreview": {
+          "photo": "/data/todoappstatic.jpg",
+          "phototwo": "/data/mergedtwo.png"
+        }
+      }
+    },
+    {
+      "id": 4,
+      "name": "Interactive Rating Component",
+      "description": "This is a solution to the Interactive rating component challenge on Frontend Mentor which involves handling user interaction and updating the DOM. Users are able to: View the optimal layout for the app depending on the device's screen size; See hover states for all interactive elements on the page; Select and submit a number rating; See the Thank you card state after submitting a rating",
+      "githublink": "https://github.com/DimitriGugava/interactive-rating-component",
+      "livelink": "https://interactive-rating-component-lilac-three.vercel.app/",
+      "projectbackground": "The project took me several hours. On this project I used  React JS. I would rate this project as easy level project but of course it has some complex functionalities. It was my fifth project done with ReactJS.   ",
+      "PreviousProject": "ToDo-App",
+      "NextProject": "Interactive Pricing Comp...",
+      "projectimage": {
+        "imagepreview": {
+          "photo": "/data/interactivecomponent.jpg",
+          "phototwo": "/data/rating.png"
+        }
+      }
+    },
+    {
+      "id": 5,
+      "name": "Interactive Pricing Component",
+      "description": "This is a solution to the Interactive pricing component challenge on Frontend Mentor. Frontend Mentor challenges help you improve your coding skills by building realistic projects.",
+      "githublink": "https://github.com/DimitriGugava/Interactive-pricing-comp",
+      "livelink": "https://dimitrigugava.github.io/Interactive-pricing-comp/",
+      "projectbackground": "Time Taken: 4-5 hour. Technology Used: HTML, CSS and Javascript. Users should be able to: View the optimal layout for the app depending on their device's screen size; See hover states for all interactive elements on the page Use the slider and toggle to see prices for different page view numbers",
+      "PreviousProject": "Interactive Rating Com...",
+      "NextProject": " FAQ Card",
+      "projectimage": {
+        "imagepreview": {
+          "photo": "/data/pricingcomponent.png",
+          "phototwo": "/data/pricingcomponent.png"
+        }
+      }
+    },
+    {
+      "id": 6,
+      "name": "FAQ Accordion Card",
+      "description": "This is my Frontend Mentor - FAQ accordion card solution for the challenge outlined on Frontend Mentor.",
+      "githublink": "https://github.com/DimitriGugava/Faq-accordion-card-main",
+      "livelink": "https://dimitrigugava.github.io/Faq-accordion-card-main/",
+      "projectbackground": "Your users should be able to: View the optimal layout for the component depending on their device's screen size; See hover states for all interactive elements on the page; Hide/Show the answer to a question when the question is clicked. The project was made within 2 hours. I used HTML, CSS and JavaScript for this project",
+      "PreviousProject": "Interactive Pricing Com...",
+      "NextProject": "No Next Project...",
+      "projectimage": {
+        "imagepreview": {
+          "photo": "/data/faq.jpg",
+          "phototwo": "/data/faq2.png"
+        }
+      }
+    }
+  ]
+}

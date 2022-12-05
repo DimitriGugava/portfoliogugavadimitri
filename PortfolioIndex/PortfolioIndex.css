@@ -1,0 +1,415 @@
+.IndexContainer {
+  width: 375px;
+
+  margin: auto;
+  background: #f2f2f2;
+}
+
+.indexHeaderContainer {
+  display: flex;
+  gap: 226px;
+  height: 32px;
+  width: 311px;
+  margin: 32px auto;
+  align-items: center;
+}
+
+.indexHeaderArrowIndicators {
+  display: flex;
+  flex-direction: row;
+  height: 32px;
+  width: 60px;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1px;
+}
+
+.indexTriangleUpHeader {
+  height: 26px;
+  width: 31px;
+
+  border-radius: 0px;
+}
+
+.indexTriangleUpHeader:hover {
+  height: 27px;
+  width: 32px;
+  cursor: pointer;
+}
+.indexTriangleDownHeader {
+  height: 26px;
+  width: 31px;
+  transform: rotate(180deg);
+}
+.indexTriangleDownHeader:hover {
+  height: 27px;
+  width: 32px;
+  cursor: pointer;
+}
+
+.indexSearchBarHeader {
+  height: 13px;
+  width: 24px;
+  position: relative;
+  display: inline-block;
+}
+
+.indexSearchBarHeader:hover {
+  height: 14px;
+  width: 25px;
+  cursor: pointer;
+}
+
+.indexDropdownContent {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  margin-left: -50px;
+
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.indexDropdownContent a {
+  color: black;
+  padding: 12px 28px;
+  text-decoration: none;
+  display: block;
+}
+.indexDropdownContent a:hover {
+  background-color: #ddd;
+}
+.indexDropDown:hover .indexDropdownContent {
+  display: block;
+}
+
+.indexDropDown:hover .indexSearchBarHeader {
+  width: 20px;
+}
+
+.indexSearchBarHeader:hover {
+  height: 14px;
+  width: 25px;
+  cursor: pointer;
+}
+
+.projectPhoto {
+  display: block;
+  margin: 76px auto;
+  height: 450px;
+  width: 340px;
+  object-fit: cover;
+}
+
+.indexContactMeContentBox {
+  height: 214px;
+  width: 311px;
+  margin: 115px auto;
+}
+
+.indexInterestedTogetherText {
+  height: 126px;
+  width: 311px;
+  font-family: "Ibarra Real Nova";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: -0.3571428656578064px;
+  text-align: center;
+  color: rgba(51, 50, 61, 1);
+}
+
+.indexContactMeBox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 48px;
+  width: 162px;
+  border: 1px solid rgba(51, 50, 61, 1);
+  margin: 40px auto;
+  font-family: "Public Sans";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-align: left;
+  color: rgba(51, 50, 61, 1);
+  text-decoration: none;
+}
+
+.indexContactMeBox:hover {
+  cursor: pointer;
+  border: 2px solid rgba(51, 50, 61, 1);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.indexBottomBox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  height: 354px;
+  width: 375px;
+
+  border-radius: 0px;
+  background: rgba(51, 50, 61, 1);
+  gap: 0px;
+}
+
+.indexBottomArrowsBox {
+  display: flex;
+  margin-top: 20px;
+  height: 32px;
+  width: 61px;
+}
+.indexUpArrow {
+  height: 26px;
+  width: 31px;
+}
+.indexUpArrow:hover {
+  cursor: pointer;
+  height: 27px;
+  width: 32px;
+}
+
+.indexDownArrow {
+  height: 26px;
+  width: 31px;
+  transform: rotate(180deg);
+}
+.indexDownArrow:hover {
+  cursor: pointer;
+  height: 27px;
+  width: 32px;
+}
+
+.indexBottomTextBox {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  height: 106px;
+  width: 98px;
+}
+
+.indexBottomText {
+  height: 14px;
+  width: 100px;
+
+  font-family: "Public Sans";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+.indexBottomText:hover {
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.indexSocialNetworkBox {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  height: 24px;
+  width: 104px;
+}
+
+.indexSocialNetwork {
+  display: flex;
+  flex-direction: row;
+}
+
+.indexSocialNetwork:hover {
+  cursor: pointer;
+}
+.bottomlongline {
+  height: 2px;
+  width: 350px;
+  margin: auto;
+  background: rgba(51, 50, 61, 1);
+}
+
+@media only screen and (max-width: 768px) {
+  .indexDropdownContenttabletdesktop {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .IndexContainer {
+    width: 768px;
+  }
+  .indexHeaderContainer {
+    height: 32px;
+    width: 689px;
+    gap: 250px;
+  }
+  .indexDropDown {
+    display: none;
+  }
+  .indexDropdownContenttabletdesktop {
+    display: flex;
+    flex-direction: row;
+    height: 14px;
+    width: 400px;
+    margin-left: 0px;
+    gap: 42px;
+  }
+  .bottomTexttabletdesktop {
+    height: 14px;
+    width: 300px;
+    font-family: "Public Sans";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: rgba(51, 50, 61, 1);
+    text-decoration: none;
+  }
+  .bottomTexttabletdesktop:hover {
+    cursor: pointer;
+    color: rgba(95, 180, 162, 1);
+  }
+
+  .indexContactMeContentBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    height: 84px;
+    width: 689px;
+  }
+  .indexInterestedTogetherText {
+    height: 84px;
+    width: 420px;
+    margin-top: 0px;
+    font-family: "Ibarra Real Nova";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -0.3571428656578064px;
+    text-align: left;
+  }
+  .indexContactMeBox {
+    height: 48px;
+    width: 162px;
+    text-decoration: none;
+    margin-top: 15px;
+  }
+
+  .indexBottomBox {
+    display: flex;
+    flex-direction: row;
+
+    height: 80px;
+    width: 768px;
+    left: 0px;
+    top: 2378px;
+    border-radius: 0px;
+  }
+  .indexBottomTextBox {
+    flex-direction: row;
+    height: 14px;
+    width: 369px;
+  }
+  .indexBottomText {
+    text-decoration: none;
+  }
+  .bottomlongline {
+    height: 2px;
+    width: 744px;
+    margin: auto;
+    background: rgba(51, 50, 61, 1);
+  }
+}
+@media only screen and (min-width: 1140px) {
+  .IndexContainer {
+    width: 1440px;
+  }
+  .indexHeaderContainer {
+    height: 32px;
+    width: 1111px;
+
+    gap: 650px;
+  }
+  .indexDropDown {
+    display: none;
+  }
+  .indexDropdownContenttabletdesktop {
+    display: flex;
+    flex-direction: row;
+    height: 14px;
+    width: 400px;
+    margin-left: 0px;
+    gap: 42px;
+  }
+  .bottomTexttabletdesktop {
+    height: 14px;
+    width: 300px;
+    font-family: "Public Sans";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: rgba(51, 50, 61, 1);
+    text-decoration: none;
+  }
+  .bottomTexttabletdesktop:hover {
+    cursor: pointer;
+    color: rgba(95, 180, 162, 1);
+  }
+
+  .indexContactMeContentBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    height: 84px;
+    width: 1110px;
+    gap: 598px;
+  }
+  .indexInterestedTogetherText {
+    height: 84px;
+    width: 420px;
+    margin-top: 0px;
+    font-family: "Ibarra Real Nova";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -0.3571428656578064px;
+    text-align: left;
+  }
+  .indexContactMeBox {
+    height: 48px;
+    width: 162px;
+    text-decoration: none;
+    margin-top: 15px;
+  }
+
+  .bottomlongline {
+    height: 2px;
+    width: 1440px;
+    margin: auto;
+    background: rgba(51, 50, 61, 1);
+  }
+  .indexBottomBox {
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    width: 1440px;
+  }
+  .indexBottomTextBox {
+    flex-direction: row;
+    height: 14px;
+    width: 369px;
+  }
+  .indexBottomText {
+    text-decoration: none;
+  }
+}

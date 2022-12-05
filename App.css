@@ -1,0 +1,12 @@
+/* * {
+  border: 0.1px solid red;
+} */
+
+.App {
+  height: auto;
+  width: 100%;
+  margin: auto;
+  background: #f2f2f2;
+
+  /* background-image: url(./icons/meme.png); */
+}
